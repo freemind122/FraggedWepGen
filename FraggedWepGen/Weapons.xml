@@ -536,10 +536,6 @@
             <Value>1d3</Value>
           </Modifier>
           <Modifier>
-            <Name>to all Weapon Modification Spare Time Rolls</Name>
-            <Value>-2</Value>
-          </Modifier>
-          <Modifier>
             <Name>Indirect</Name>
             <Value>Above</Value>
           </Modifier>
@@ -558,7 +554,40 @@
         </Modifiers>
         <Notes>
           <Note>Slow</Note>
-          <Note></Note>
+          <Note>Maximum Range = Rng x20 (normally Rng x10)</Note>
+          <Note>Minimum Range = 8</Note>
+          <Note>When Fired at a spacecraft use: Hit -1, Shield Dmg 2, Crit 2 and Rng 4</Note>
+        </Notes>
+        <Book>PA</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+
+      <Weapon>
+        <Name>Powerful Psionic</Name>
+        <Stats>
+          <Hit>0</Hit>
+          <EDmg>6</EDmg>
+          <Crit>4</Crit>
+          <Rng>2</Rng>
+          <Clips>-</Clips>
+          <Ammo>Inf</Ammo>
+          <Load>0</Load>
+          <RoF>1</RoF>
+          <Wgt>-</Wgt>
+          <Cost>4</Cost>
+        </Stats>
+        <Types>
+          <Type>Analytical</Type>
+          <Type>Gun</Type>
+          <Type>Psionic</Type>
+        </Types>
+        <Modifiers>
+        </Modifiers>
+        <Notes>
+          <Note>Natural</Note>
+          <Note>Only Psionic Variations</Note>
+          <Note>No Modifications</Note>
         </Notes>
         <Book>PA</Book>
         <StrongHits>

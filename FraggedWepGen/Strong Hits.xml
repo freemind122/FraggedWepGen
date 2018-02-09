@@ -7,4 +7,19 @@
     </Conditions>
     <Result>Debuff ALL Damaged Targets Active Non Low Tech Non Bio Tech Weapons: Lose Ammunition equal to RoF</Result>
   </StrongHit>
+  <StrongHit>
+    <Name>Gather Power</Name>
+    <Conditions>
+      <Condition>Hit</Condition>
+      <Condition>Once per Turn</Condition>
+    </Conditions>
+    <Result>This Weapon gains -2 Hit and Strong Hit +1 for the remainder of the Combat (Stacks)</Result>
+  </StrongHit>
+  <StrongHit>
+    <Name>Unleash Power</Name>
+    <Conditions>
+      <Condition>Does not Req Hit</Condition>
+    </Conditions>
+    <Result>ALL other characters within 4 of you take 8 Endurance Damage and you take 4 Endurance Damage</Result>
+  </StrongHit>
 </StrongHits>
