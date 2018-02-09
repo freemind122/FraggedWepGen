@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StrongHits>
+  <StrongHit>
+    <Name>Disrupt</Name>
+    <Conditions>
+      <Condition>Hit</Condition>
+    </Conditions>
+    <Result>Debuff ALL Damaged Targets Active Non Low Tech Non Bio Tech Weapons: Lose Ammunition equal to RoF</Result>
+  </StrongHit>
+</StrongHits>

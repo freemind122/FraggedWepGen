@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Skills>
+  <SmallArms>
+    <BaseWeps>
+      
+      <Weapon>
+        <Name>Pistol</Name>
+        <Stats>
+          <Hit>1</Hit>
+          <EDmg>3</EDmg>
+          <Crit>3</Crit>
+          <Rng>4</Rng>
+          <Clips>4</Clips>
+          <Ammo>6</Ammo>
+          <Load>1</Load>
+          <RoF>1</RoF>
+          <Wgt>1</Wgt>
+          <Cost>1</Cost>
+        </Stats>
+        <Types>
+          <Type>Gun</Type>
+        </Types>
+        <Modifiers>
+        </Modifiers>
+        <Notes>
+          <Note>Small</Note>
+        </Notes>
+        <Book>CRB</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+      
+      <Weapon>
+        <Name>Submachine Gun</Name>
+        <Stats>
+          <Hit>1</Hit>
+          <EDmg>4</EDmg>
+          <Crit>3</Crit>
+          <Rng>3</Rng>
+          <Clips>3</Clips>
+          <Ammo>3</Ammo>
+          <Load>1</Load>
+          <RoF>3</RoF>
+          <Wgt>1</Wgt>
+          <Cost>2</Cost>
+        </Stats>
+        <Types>
+          <Type>Gun</Type>
+        </Types>
+        <Modifiers>
+        </Modifiers>
+        <Notes>
+        </Notes>
+        <Book>CRB</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+
+      <Weapon>
+        <Name>Rifle</Name>
+        <Stats>
+          <Hit>0</Hit>
+          <EDmg>3</EDmg>
+          <Crit>4</Crit>
+          <Rng>5</Rng>
+          <Clips>2</Clips>
+          <Ammo>4</Ammo>
+          <Load>2</Load>
+          <RoF>1</RoF>
+          <Wgt>2</Wgt>
+          <Cost>2</Cost>
+        </Stats>
+        <Types>
+          <Type>Gun</Type>
+        </Types>
+        <Modifiers>
+          <Modifier>
+            <Name>Strong Hit</Name>
+            <Lower>5</Lower>
+            <Upper>6</Upper>
+            <Condition>with all RoF 1 Attack Rolls</Condition>
+          </Modifier>
+        </Modifiers>
+        <Notes>
+        </Notes>
+        <Book>CRB</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+
+      <Weapon>
+        <Name>Assault Rifle</Name>
+        <Stats>
+          <Hit>2</Hit>
+          <EDmg>4</EDmg>
+          <Crit>4</Crit>
+          <Rng>4</Rng>
+          <Clips>3</Clips>
+          <Ammo>4</Ammo>
+          <Load>2</Load>
+          <RoF>2</RoF>
+          <Wgt>2</Wgt>
+          <Cost>3</Cost>
+        </Stats>
+        <Types>
+          <Type>Gun</Type>
+        </Types>
+        <Modifiers>
+          <Modifier>
+            <Name>Jam</Name>
+            <Value>-1</Value>
+          </Modifier>
+        </Modifiers>
+        <Notes>
+        </Notes>
+        <Book>CRB</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+
+      <Weapon>
+        <Name>Shotgun</Name>
+        <Stats>
+          <Hit>2</Hit>
+          <EDmg>6</EDmg>
+          <Crit>3</Crit>
+          <Rng>2</Rng>
+          <Clips>5</Clips>
+          <Ammo>1</Ammo>
+          <Load>1</Load>
+          <RoF>2</RoF>
+          <Wgt>3</Wgt>
+          <Cost>2</Cost>
+        </Stats>
+        <Types>
+          <Type>Gun or Shell (Pick One)</Type>
+        </Types>
+        <Modifiers>
+          <Modifier>
+            <Name>Strong Hit</Name>
+            <Lower>5</Lower>
+            <Upper>6</Upper>
+            <Condition>vs Targets within the first Range Increment</Condition>
+          </Modifier>
+        </Modifiers>
+        <Notes>
+        </Notes>
+        <Book>CRB</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+
+      <Weapon>
+        <Name>Heavy Pistol</Name>
+        <Stats>
+          <Hit>0</Hit>
+          <EDmg>4</EDmg>
+          <Crit>4</Crit>
+          <Rng>3</Rng>
+          <Clips>4</Clips>
+          <Ammo>3</Ammo>
+          <Load>1</Load>
+          <RoF>1</RoF>
+          <Wgt>1</Wgt>
+          <Cost>1</Cost>
+        </Stats>
+        <Types>
+          <Type>Gun</Type>
+        </Types>
+        <Modifiers>
+        </Modifiers>
+        <Notes>
+          <Note>Small</Note>
+        </Notes>
+        <Book>PA</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+
+      <Weapon>
+        <Name>Drum Assault Rifle</Name>
+        <Stats>
+          <Hit>0</Hit>
+          <EDmg>4</EDmg>
+          <Crit>4</Crit>
+          <Rng>3</Rng>
+          <Clips>3</Clips>
+          <Ammo>6</Ammo>
+          <Load>2</Load>
+          <RoF>2</RoF>
+          <Wgt>3</Wgt>
+          <Cost>3</Cost>
+        </Stats>
+        <Types>
+          <Type>Gun</Type>
+        </Types>
+        <Modifiers>
+        </Modifiers>
+        <Notes>
+        </Notes>
+        <Book>PA</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+      
+    </BaseWeps>
+  </SmallArms>
+  <HeavyArms>
+    <BaseWeps>
+
+      <Weapon>
+        <Name>Grenade</Name>
+        <Stats>
+          <Hit>-2</Hit>
+          <EDmg>6</EDmg>
+          <Crit>5</Crit>
+          <Rng>1</Rng>
+          <Clips>2</Clips>
+          <Ammo>1</Ammo>
+          <Load>1</Load>
+          <RoF>1</RoF>
+          <Wgt>1</Wgt>
+          <Cost>1</Cost>
+        </Stats>
+        <Types>
+          <Type>Shell</Type>
+          <Type>Thrown</Type>
+        </Types>
+        <Modifiers>
+          <Modifier>
+            <Name>Splash</Name>
+            <Value>2</Value>
+          </Modifier>
+          <Modifier>
+            <Name>to all Weapon Modification Spare Time Rolls</Name>
+            <Value>-2</Value>
+          </Modifier>
+        </Modifiers>
+        <Notes>
+          <Note>Small</Note>
+          <Note>Slow</Note>
+        </Notes>
+        <Book>CRB</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+
+      <Weapon>
+        <Name>Disruptor Grenade</Name>
+        <Stats>
+          <Hit>-2</Hit>
+          <EDmg>8</EDmg>
+          <Crit>3</Crit>
+          <Rng>1</Rng>
+          <Clips>1</Clips>
+          <Ammo>1</Ammo>
+          <Load>1</Load>
+          <RoF>1</RoF>
+          <Wgt>1</Wgt>
+          <Cost>1</Cost>
+        </Stats>
+        <Types>
+          <Type>Thrown</Type>
+          <Type>Disruptor</Type>
+        </Types>
+        <Modifiers>
+          <Modifier>
+            <Name>Splash</Name>
+            <Value>1</Value>
+          </Modifier>
+          <Modifier>
+            <Name>Strong Hit</Name>
+            <Lower>5</Lower>
+            <Upper>6</Upper>
+          </Modifier>
+          <Modifier>
+            <Name>Crit Dmg vs Robots</Name>
+            <Value>+2</Value>
+          </Modifier>
+          <Modifier>
+            <Name>to all Weapon Modification Spare Time Rolls</Name>
+            <Value>-2</Value>
+          </Modifier>
+        </Modifiers>
+        <Notes>
+          <Note>Small</Note>
+          <Note>Slow</Note>
+          <Note>Energy</Note>
+          <Note>Blunt</Note>
+        </Notes>
+        <Book>CRB</Book>
+        <StrongHits>
+          <StrongHit>Disrupt</StrongHit>
+        </StrongHits>
+      </Weapon>
+
+      <Weapon>
+        <Name>Satchel</Name>
+        <Stats>
+          <Hit>-4</Hit>
+          <EDmg>10</EDmg>
+          <Crit>4</Crit>
+          <Rng>-2</Rng>
+          <Clips>1</Clips>
+          <Ammo>1</Ammo>
+          <Load>2</Load>
+          <RoF>1</RoF>
+          <Wgt>2</Wgt>
+          <Cost>14t</Cost>
+        </Stats>
+        <Types>
+          <Type>Shell</Type>
+          <Type>Thrown</Type>
+        </Types>
+        <Modifiers>
+          <Modifier>
+            <Name>Splash</Name>
+            <Value>1</Value>
+          </Modifier>
+          <Modifier>
+            <Name>Pen</Name>
+            <Value>4</Value>
+            <Min>2</Min>
+          </Modifier>
+        </Modifiers>
+        <Notes>
+          <Note>1 use</Note>
+          <Note>Slow</Note>
+          <Note>May make a Heavy Arms Skill Roll of 12 to place Satchel and time a delayed explosion</Note>
+        </Notes>
+        <Book>CRB</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+
+      <Weapon>
+        <Name>Puncture Rifle</Name>
+        <Stats>
+          <Hit>0</Hit>
+          <EDmg>4</EDmg>
+          <Crit>4</Crit>
+          <Rng>4</Rng>
+          <Clips>3</Clips>
+          <Ammo>3</Ammo>
+          <Load>2</Load>
+          <RoF>1</RoF>
+          <Wgt>3</Wgt>
+          <Cost>2</Cost>
+        </Stats>
+        <Types>
+          <Type>Gun</Type>
+        </Types>
+        <Modifiers>
+          <Modifier>
+            <Name>Pen</Name>
+            <Value>2</Value>
+            <Min>3</Min>
+          </Modifier>
+        </Modifiers>
+        <Notes>
+          <Note>Slow</Note>
+          <Note>Maximum Range = Rng x5 (Normally Rng x10)</Note>
+        </Notes>
+        <Book>CRB</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+
+      <Weapon>
+        <Name>Cannon</Name>
+        <Stats>
+          <Hit>-2</Hit>
+          <EDmg>6</EDmg>
+          <Crit>5</Crit>
+          <Rng>5</Rng>
+          <Clips>4</Clips>
+          <Ammo>3</Ammo>
+          <Load>2</Load>
+          <RoF>1</RoF>
+          <Wgt>4</Wgt>
+          <Cost>4</Cost>
+        </Stats>
+        <Types>
+          <Type>Gun or Shell (Pick One)</Type>
+        </Types>
+        <Modifiers>
+          <Modifier>
+            <Name>Splash</Name>
+            <Value>1</Value>
+          </Modifier>
+          <Modifier>
+            <Name>Costs Spare Time Roll</Name>
+            <Value>14</Value>
+          </Modifier>
+        </Modifiers>
+        <Notes>
+          <Note>Slow</Note>
+          <Note>Maximum Range = Rng x20 (Normally Rng x10)</Note>
+          <Note>When Fired at a spacecraft use: Hit +2, Shield Dmg 2, Crit 2 and Rng 2</Note>
+        </Notes>
+        <Book>CRB</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+
+      <Weapon>
+        <Name>Auto Cannon</Name>
+        <Stats>
+          <Hit>-4</Hit>
+          <EDmg>6</EDmg>
+          <Crit>4</Crit>
+          <Rng>2</Rng>
+          <Clips>3</Clips>
+          <Ammo>5</Ammo>
+          <Load>2</Load>
+          <RoF>4</RoF>
+          <Wgt>4</Wgt>
+          <Cost>4</Cost>
+        </Stats>
+        <Types>
+          <Type>Gun</Type>
+        </Types>
+        <Modifiers>
+          <Modifier>
+            <Name>Jam</Name>
+            <Lower>1</Lower>
+            <Upper>3</Upper>
+          </Modifier>
+          <Modifier>
+            <Name>Costs Spare Time Roll</Name>
+            <Value>14</Value>
+          </Modifier>
+        </Modifiers>
+        <Notes>
+          <Note>Optional: (Set Up 1, Pull Down 1, +2 Rng and +2 End Dmg)</Note>
+        </Notes>
+        <Book>CRB</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+
+      <Weapon>
+        <Name>Chemical Thrower</Name>
+        <Stats>
+          <Hit>0</Hit>
+          <EDmg>4</EDmg>
+          <Crit>4</Crit>
+          <Rng>1</Rng>
+          <Clips>3</Clips>
+          <Ammo>3</Ammo>
+          <Load>2</Load>
+          <RoF>3</RoF>
+          <Wgt>3</Wgt>
+          <Cost>4</Cost>
+        </Stats>
+        <Types>
+          <Type>Chemical</Type>
+        </Types>
+        <Modifiers>
+          <Modifier>
+            <Name>Jam</Name>
+            <Lower>1</Lower>
+            <Upper>5</Upper>
+          </Modifier>
+        </Modifiers>
+        <Notes>
+          <Note>Slow</Note>
+          <Note>Low Tech</Note>
+          <Note>All Targets have -1 Cover Step</Note>
+          <Note>If you perform a Spread Fire with this Weapon: add +1d6 to each Attack Roll</Note>
+        </Notes>
+        <Book>CRB</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+
+      <Weapon>
+        <Name>Adhesive Grenade</Name>
+        <Stats>
+          <Hit>0</Hit>
+          <EDmg>6</EDmg>
+          <Crit>4</Crit>
+          <Rng>2</Rng>
+          <Clips>3</Clips>
+          <Ammo>1</Ammo>
+          <Load>1</Load>
+          <RoF>1</RoF>
+          <Wgt>1</Wgt>
+          <Cost>1</Cost>
+        </Stats>
+        <Types>
+          <Type>Shell</Type>
+          <Type>Thrown</Type>
+        </Types>
+        <Modifiers>
+          <Modifier>
+            <Name>Splash</Name>
+            <Value>1</Value>
+          </Modifier>
+          <Modifier>
+            <Name>to all Weapon Modification Spare Time Rolls</Name>
+            <Value>-2</Value>
+          </Modifier>
+        </Modifiers>
+        <Notes>
+          <Note>Small</Note>
+          <Note>Slow</Note>
+          <Note>Attack sticks to surfaces and characters</Note>
+          <Note>Apply Damage and select Strong Hit Options at the start of your next Turn</Note>
+        </Notes>
+        <Book>PA</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+
+      <Weapon>
+        <Name>Mortar</Name>
+        <Stats>
+          <Hit>-4</Hit>
+          <EDmg>6</EDmg>
+          <Crit>4</Crit>
+          <Rng>8</Rng>
+          <Clips>10</Clips>
+          <Ammo>1</Ammo>
+          <Load>1</Load>
+          <RoF>1</RoF>
+          <Wgt>4</Wgt>
+          <Cost>2</Cost>
+        </Stats>
+        <Types>
+          <Type>Shell</Type>
+        </Types>
+        <Modifiers>
+          <Modifier>
+            <Name>Splash</Name>
+            <Value>1d3</Value>
+          </Modifier>
+          <Modifier>
+            <Name>to all Weapon Modification Spare Time Rolls</Name>
+            <Value>-2</Value>
+          </Modifier>
+          <Modifier>
+            <Name>Indirect</Name>
+            <Value>Above</Value>
+          </Modifier>
+          <Modifier>
+            <Name>Set Up</Name>
+            <Value>2</Value>
+          </Modifier>
+          <Modifier>
+            <Name>Pull Down</Name>
+            <Value>2</Value>
+          </Modifier>
+          <Modifier>
+            <Name>Arc of Fire</Name>
+            <Value>90</Value>
+          </Modifier>
+        </Modifiers>
+        <Notes>
+          <Note>Slow</Note>
+          <Note></Note>
+        </Notes>
+        <Book>PA</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+
+    </BaseWeps>
+  </HeavyArms>
+</Skills>
