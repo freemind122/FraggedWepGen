@@ -130,6 +130,7 @@
   <ItemGroup>
     <Content Include="Weapons.xml" />
     <Content Include="Strong Hits.xml" />
+    <Content Include="Drones.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

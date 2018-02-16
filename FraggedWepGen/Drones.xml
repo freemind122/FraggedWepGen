@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Drones>
+  <Drone>
+    <Name>Turret</Name>
+    <Stats>
+      <Defence>8</Defence>
+      <Armour>4</Armour>
+      <Movement>-</Movement>
+      <Slots>4</Slots>
+      <Bodies>1</Bodies>
+    </Stats>
+  </Drone>
+
+  <Drone>
+    <Name>Crawler</Name>
+    <Stats>
+      <Defence>14</Defence>
+      <Armour>2</Armour>
+      <Movement>4</Movement>
+      <Slots>0</Slots>
+      <Bodies>1</Bodies>
+    </Stats>
+  </Drone>
+</Drones>

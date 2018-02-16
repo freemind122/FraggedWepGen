@@ -591,9 +591,192 @@
         </Notes>
         <Book>PA</Book>
         <StrongHits>
+          <StrongHit>Gather Power</StrongHit>
+          <StrongHit>Unleash Power</StrongHit>
+        </StrongHits>
+      </Weapon>
+    </BaseWeps>
+  </HeavyArms>
+  <Tactical>
+    <BaseWeps>
+      
+      <Weapon>
+        <Name>Mind</Name>
+        <Stats>
+          <Hit>+int</Hit>
+          <EDmg>-</EDmg>
+          <Crit>-</Crit>
+          <Rng>Foc</Rng>
+          <Clips>-</Clips>
+          <Ammo>Inf</Ammo>
+          <Load>0</Load>
+          <RoF>1</RoF>
+          <Wgt>-</Wgt>
+          <Cost>Auto</Cost>
+        </Stats>
+        <Types>
+          <Type>Analytical</Type>
+        </Types>
+        <Modifiers>
+        </Modifiers>
+        <Notes>
+          <Note>Natural</Note>
+          <Note>No Variations or Modifications</Note>
+        </Notes>
+        <Book>CRB</Book>
+        <StrongHits>
         </StrongHits>
       </Weapon>
 
+      <Weapon>
+        <Name>Targeting Laser</Name>
+        <Stats>
+          <Hit>+int -2</Hit>
+          <EDmg>-</EDmg>
+          <Crit>-</Crit>
+          <Rng>Foc +4</Rng>
+          <Clips>-</Clips>
+          <Ammo>Inf</Ammo>
+          <Load>1</Load>
+          <RoF>1</RoF>
+          <Wgt>0</Wgt>
+          <Cost>14t</Cost>
+        </Stats>
+        <Types>
+          <Type>Combat Computer</Type>
+        </Types>
+        <Modifiers>
+          <Modifier>
+            <Name>Strong Hit</Name>
+            <lower>5</lower>
+            <upper>6</upper>
+          </Modifier>
+        </Modifiers>
+        <Notes>
+          <Note>Small</Note>
+        </Notes>
+        <Book>CRB</Book>
+        <StrongHits>
+          <StrongHit>Target Lock</StrongHit>
+        </StrongHits>
+      </Weapon>
+
+      <Weapon>
+        <Name>Tactical Computer</Name>
+        <Stats>
+          <Hit>+int</Hit>
+          <EDmg>-</EDmg>
+          <Crit>-</Crit>
+          <Rng>Foc</Rng>
+          <Clips>Inf</Clips>
+          <Ammo>10</Ammo>
+          <Load>2</Load>
+          <RoF>1</RoF>
+          <Wgt>1</Wgt>
+          <Cost>2</Cost>
+        </Stats>
+        <Types>
+          <Type>Combat Computer</Type>
+        </Types>
+        <Modifiers>
+          <Modifier>
+            <Name>Lock On</Name>
+            <value>+2</value>
+          </Modifier>
+          <Modifier>
+            <Name>Strong Hit</Name>
+            <lower>5</lower>
+            <upper>6</upper>
+          </Modifier>
+        </Modifiers>
+        <Notes>
+        </Notes>
+        <Book>CRB</Book>
+        <StrongHits>
+          <StrongHit>Target Lock</StrongHit>
+          <StrongHit>Weak Spot</StrongHit>
+          <StrongHit>Plot Trajectory</StrongHit>
+          <StrongHit>Tactical Scan</StrongHit>
+        </StrongHits>
+      </Weapon>
+
+      <Weapon>
+        <Name>Turret</Name>
+        <Stats>
+          <Hit>-2</Hit>
+          <EDmg>0</EDmg>
+          <Crit>0</Crit>
+          <Rng>+1</Rng>
+          <Clips>+1</Clips>
+          <Ammo>0</Ammo>
+          <Load>0</Load>
+          <RoF>0</RoF>
+          <Wgt>1(+4)</Wgt>
+          <Cost>0+</Cost>
+        </Stats>
+        <Types>
+          <Type>Drone</Type>
+        </Types>
+        <Modifiers>
+          <Modifier>
+            <Name>Lock On</Name>
+            <value>+6</value>
+          </Modifier>
+          <Modifier>
+            <Name>Set Up</Name>
+            <Value>2</Value>
+          </Modifier>
+          <Modifier>
+            <Name>Pull Down</Name>
+            <Value>1</Value>
+          </Modifier>
+          <Modifier>
+            <Name>Arc of Fire</Name>
+            <Value>180</Value>
+          </Modifier>
+        </Modifiers>
+        <Notes>
+          <Note>Robot</Note>
+        </Notes>
+        <Book>CRB</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+
+      <Weapon>
+        <Name>Crawler</Name>
+        <Stats>
+          <Hit>0</Hit>
+          <EDmg>2</EDmg>
+          <Crit>2</Crit>
+          <Rng>3</Rng>
+          <Clips>-</Clips>
+          <Ammo>Inf</Ammo>
+          <Load>0</Load>
+          <RoF>2</RoF>
+          <Wgt>1(+0)</Wgt>
+          <Cost>1</Cost>
+        </Stats>
+        <Types>
+          <Type>Drone</Type>
+        </Types>
+        <Modifiers>
+          <Modifier>
+            <Name>Lock On</Name>
+            <value>+2</value>
+          </Modifier>
+        </Modifiers>
+        <Notes>
+          <Note>Energy</Note>
+          <Note>May be Set Up as a single Thrown Action (Rng = Str)</Note>
+          <Note>Robot</Note>
+          <Note>No Variations</Note>
+        </Notes>
+        <Book>CRB</Book>
+        <StrongHits>
+        </StrongHits>
+      </Weapon>
+      
     </BaseWeps>
-  </HeavyArms>
+  </Tactical>
 </Skills>

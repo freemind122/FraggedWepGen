@@ -24,11 +24,15 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
+        Me.ERB = New System.Windows.Forms.RadioButton()
+        Me.TRB = New System.Windows.Forms.RadioButton()
+        Me.HARB = New System.Windows.Forms.RadioButton()
+        Me.SARB = New System.Windows.Forms.RadioButton()
         Me.AddBtn = New System.Windows.Forms.Button()
+        Me.NameBox = New System.Windows.Forms.TextBox()
+        Me.NameBoxLbl = New System.Windows.Forms.Label()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -43,60 +47,60 @@ Partial Class Form1
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.RadioButton4)
-        Me.GroupBox1.Controls.Add(Me.RadioButton3)
-        Me.GroupBox1.Controls.Add(Me.RadioButton2)
-        Me.GroupBox1.Controls.Add(Me.RadioButton1)
-        Me.GroupBox1.Location = New System.Drawing.Point(16, 46)
+        Me.GroupBox1.Controls.Add(Me.ERB)
+        Me.GroupBox1.Controls.Add(Me.TRB)
+        Me.GroupBox1.Controls.Add(Me.HARB)
+        Me.GroupBox1.Controls.Add(Me.SARB)
+        Me.GroupBox1.Location = New System.Drawing.Point(16, 97)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(361, 100)
+        Me.GroupBox1.Size = New System.Drawing.Size(313, 56)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "GroupBox1"
         '
-        'RadioButton1
+        'ERB
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(21, 19)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(90, 17)
-        Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "RadioButton1"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.ERB.AutoSize = True
+        Me.ERB.Location = New System.Drawing.Point(245, 19)
+        Me.ERB.Name = "ERB"
+        Me.ERB.Size = New System.Drawing.Size(54, 17)
+        Me.ERB.TabIndex = 3
+        Me.ERB.TabStop = True
+        Me.ERB.Text = "Exotic"
+        Me.ERB.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'TRB
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(164, 20)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(90, 17)
-        Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "RadioButton2"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.TRB.AutoSize = True
+        Me.TRB.Location = New System.Drawing.Point(176, 19)
+        Me.TRB.Name = "TRB"
+        Me.TRB.Size = New System.Drawing.Size(63, 17)
+        Me.TRB.TabIndex = 2
+        Me.TRB.TabStop = True
+        Me.TRB.Text = "Tactical"
+        Me.TRB.UseVisualStyleBackColor = True
         '
-        'RadioButton3
+        'HARB
         '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(21, 59)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(90, 17)
-        Me.RadioButton3.TabIndex = 2
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "RadioButton3"
-        Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.HARB.AutoSize = True
+        Me.HARB.Location = New System.Drawing.Point(88, 19)
+        Me.HARB.Name = "HARB"
+        Me.HARB.Size = New System.Drawing.Size(82, 17)
+        Me.HARB.TabIndex = 1
+        Me.HARB.TabStop = True
+        Me.HARB.Text = "Heavy Arms"
+        Me.HARB.UseVisualStyleBackColor = True
         '
-        'RadioButton4
+        'SARB
         '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(164, 59)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(90, 17)
-        Me.RadioButton4.TabIndex = 3
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "RadioButton4"
-        Me.RadioButton4.UseVisualStyleBackColor = True
+        Me.SARB.AutoSize = True
+        Me.SARB.Location = New System.Drawing.Point(6, 19)
+        Me.SARB.Name = "SARB"
+        Me.SARB.Size = New System.Drawing.Size(76, 17)
+        Me.SARB.TabIndex = 0
+        Me.SARB.TabStop = True
+        Me.SARB.Text = "Small Arms"
+        Me.SARB.UseVisualStyleBackColor = True
         '
         'AddBtn
         '
@@ -107,11 +111,48 @@ Partial Class Form1
         Me.AddBtn.Text = "Add"
         Me.AddBtn.UseVisualStyleBackColor = True
         '
+        'NameBox
+        '
+        Me.NameBox.Location = New System.Drawing.Point(16, 61)
+        Me.NameBox.Name = "NameBox"
+        Me.NameBox.Size = New System.Drawing.Size(100, 20)
+        Me.NameBox.TabIndex = 3
+        '
+        'NameBoxLbl
+        '
+        Me.NameBoxLbl.AutoSize = True
+        Me.NameBoxLbl.Location = New System.Drawing.Point(13, 42)
+        Me.NameBoxLbl.Name = "NameBoxLbl"
+        Me.NameBoxLbl.Size = New System.Drawing.Size(35, 13)
+        Me.NameBoxLbl.TabIndex = 4
+        Me.NameBoxLbl.Text = "Name"
+        '
+        'ListBox1
+        '
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.Location = New System.Drawing.Point(16, 160)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(313, 69)
+        Me.ListBox1.TabIndex = 5
+        '
+        'CheckedListBox1
+        '
+        Me.CheckedListBox1.FormattingEnabled = True
+        Me.CheckedListBox1.Items.AddRange(New Object() {"hah", "bla", "werih", "wefjk"})
+        Me.CheckedListBox1.Location = New System.Drawing.Point(400, 97)
+        Me.CheckedListBox1.Name = "CheckedListBox1"
+        Me.CheckedListBox1.Size = New System.Drawing.Size(271, 184)
+        Me.CheckedListBox1.TabIndex = 6
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(728, 529)
+        Me.Controls.Add(Me.CheckedListBox1)
+        Me.Controls.Add(Me.ListBox1)
+        Me.Controls.Add(Me.NameBoxLbl)
+        Me.Controls.Add(Me.NameBox)
         Me.Controls.Add(Me.AddBtn)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
@@ -126,9 +167,13 @@ Partial Class Form1
 
     Friend WithEvents Label1 As Label
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents RadioButton4 As RadioButton
-    Friend WithEvents RadioButton3 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents ERB As RadioButton
+    Friend WithEvents TRB As RadioButton
+    Friend WithEvents HARB As RadioButton
+    Friend WithEvents SARB As RadioButton
     Friend WithEvents AddBtn As Button
+    Friend WithEvents NameBox As TextBox
+    Friend WithEvents NameBoxLbl As Label
+    Friend WithEvents ListBox1 As ListBox
+    Friend WithEvents CheckedListBox1 As CheckedListBox
 End Class
